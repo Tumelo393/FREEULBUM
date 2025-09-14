@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-image: url(Screenshot_20250909_152838_TikTok.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300vh;
+}
+
+.player {
+    background: rgba(128, 0, 0, 0.651);
+    color: rgb(255, 255, 255);
+    width: 500px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.player:hover{
+   color: rgb(255, 0, 0);
+   transform: scale(1.2);
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+
+.playing {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.artist {
+    font-size: 15px;
+}
+
+@media (max-width: 575.98px) {
+}
